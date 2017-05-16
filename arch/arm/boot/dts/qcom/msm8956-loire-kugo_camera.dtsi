@@ -16,8 +16,8 @@
 		cell-index = <0>;
 		compatible = "qcom,camera-flash";
 		qcom,flash-type = <1>;
-		qcom,flash-source = <&pmi8950_flash0 &pmi8950_flash1>;
-		qcom,torch-source = <&pmi8950_torch0 &pmi8950_torch1>;
+		qcom,flash-source = <&pmi8950_flash0>;
+		qcom,torch-source = <&pmi8950_torch0>;
 		qcom,switch-source = <&pmi8950_switch>;
 	};
 };
@@ -88,7 +88,7 @@
 		reg = <0x1>;
 		qcom,csiphy-sd-index = <1>;
 		qcom,csid-sd-index = <1>;
-		qcom,mount-angle = <270>;
+		qcom,mount-angle = <90>;
 		cam_vdig-supply = <&pm8950_l1>;
 		cam_vana-supply = <&pm8950_l10>;
 		cam_vio-supply = <&pm8950_l5>;
